@@ -2,7 +2,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    width: 100%;
 }
+
 .main-color{
     color: #1e1879;
 }
@@ -17,10 +19,12 @@ body{
     background-color: #6558c9;
 }
 .plan-btn{
-    color: #3F87F5;
-    background-color: #96246c;;
+    color: #0452c7;
+    background-color: #faeff5;
+    text-decoration: none;
 }
+
 .foot{
     background-color: #0B0D17;
-    /* height: 240px; */
+    width: 100%;
 }
