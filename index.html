@@ -48,7 +48,7 @@
         </nav>
 
         <!-- Carousel Section  -->
-        <section>
+        <section class="mt-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -104,6 +104,20 @@
     </header>
 
     <Main>
+        <!-- Toast section  -->
+        <section style="float:right;">
+            <div class="toast bg-primary text-white  show ">
+                <div class="toast-header bg-primary text-white ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 pe-2" width="30px" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                    </svg><strong class="me-auto"><i class="bi-gift-fill"></i> 20% Off on Next Booking</strong>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"></button>
+                </div>
+
+            </div>
+        </section>
         <section class="container">
             <!-- Package Section  -->
             <h2 class="main-color my-5 fw-bold text-center">Our Package</h2>
@@ -385,15 +399,15 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
+                            <h2 class="accordion-header" id="flush-headingFour">
                                 <button class="accordion-button collapsed fw-bold" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
                                     How do you keep budgets on track?
                                 </button>
                             </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body text-muted">We have 6th type of event package, that was
                                     economical and premier service also. You can customise your plan also. The we worked
                                     it in your choice. We are very much pationate about our serrvice</div>
@@ -410,6 +424,27 @@
 
 
     </Main>
+
+    <!-- Footer section  -->
+    <footer class="foot w-100 mt-5 overflow-hidden">
+        <div>
+            <div class="row  d-flex align-items-center flex-column-reverse flex-md-row py-5">
+                <div class=" text-white col-lg-6 col-md-6 col-sm-12 col-12  text-center ">
+                    <p> &copy; 2020 bike. All rights reserved</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
+                    <h5 class="text-white mt-2">Get The APP</h5>
+                    <div><a
+                            href="https://apps.apple.com/app/id978058048?scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051&spm=a2a0e.home.footer_top.21.735212f7Hv9G3K"><img
+                                class="my-2" src="images/app-store.png" alt=""></a></div>
+                    <div><a
+                            href="https://play.google.com/store/apps/details?spm=a2a0e.home.footer_top.22.735212f7Hv9G3K&id=com.daraz.android&scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051">
+                            <img class="mb-5" src="images/google-play.png" alt=""></a></div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
