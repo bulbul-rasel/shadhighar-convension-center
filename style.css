@@ -1,31 +1,37 @@
+/* Custom Google Font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
-
+/* Custon Title color  */
 .main-color{
     color: #1e1879;
 }
+/* Custom Check Button Color  */
 .check-color{
     color: #271c79;
     width: 20px;
     background-color: #cdcbdd;
 }
+/* Badge Icon Check Custom Color  */
 .check-color-two{
     color: #f8f7ff;
     width: 20px;
     background-color: #6558c9;
 }
+/* Custom color for Booking Plan button  */
 .plan-btn{
     color: #0452c7;
     background-color: #faeff5;
     text-decoration: none;
 }
+/* Card Badge icon width  */
 .card-badge{
     width: 22% !important;
 }
+/* Custom Footer color */
 .foot{
     background-color: #0B0D17;
     width: 100%;
