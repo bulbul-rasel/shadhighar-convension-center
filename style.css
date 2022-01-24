@@ -23,7 +23,9 @@ body{
     background-color: #faeff5;
     text-decoration: none;
 }
-
+.card-badge{
+    width: 22% !important;
+}
 .foot{
     background-color: #0B0D17;
     width: 100%;
