@@ -31,6 +31,15 @@ body{
 .card-badge{
     width: 22% !important;
 }
+/* Custom Package  */
+.own-package{
+    background-image: url('/images/wedding.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: overlay;
+}
 /* Custom Footer color */
 .foot{
     background-color: #0B0D17;
